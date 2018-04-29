@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: user-accounts-aggregator
+    
+server:
+  port: 8075
+  contextPath: /user-accounts-aggregator
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost  
+
