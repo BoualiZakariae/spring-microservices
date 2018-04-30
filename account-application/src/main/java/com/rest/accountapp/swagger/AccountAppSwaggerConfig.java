@@ -28,7 +28,7 @@ public class AccountAppSwaggerConfig {
 	}
 
 	private ApiInfo getApiInfo() {
-		Contact contact = new Contact("nmore", "http://google.com", "nilesh9291.javadeveloper@gmail.com");
+		Contact contact = new Contact("shivnilesh1109", "http://google.com", "shivnilesh1109@gmail.com");
 
 		return new ApiInfoBuilder()
 			.title("Account Application")

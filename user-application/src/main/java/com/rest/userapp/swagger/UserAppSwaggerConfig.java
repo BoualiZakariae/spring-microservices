@@ -24,11 +24,10 @@ public class UserAppSwaggerConfig {
 			.basePackage("com.rest.userapp.controllers"))
 			.paths(PathSelectors.any())
 			.build();
-			//.pathMapping("/users");
 	}
 	
 	private ApiInfo getApiInfo() {
-		Contact contact = new Contact("nmore", "http://google.com", "nilesh9291.javadeveloper@gmail.com");
+		Contact contact = new Contact("shivnilesh1109", "http://google.com", "shivnilesh1109@gmail.com");
 
 		return new ApiInfoBuilder()
 			.title("User Application")
